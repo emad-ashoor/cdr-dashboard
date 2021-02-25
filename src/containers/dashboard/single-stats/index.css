@@ -1,0 +1,85 @@
+.value {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 10px;
+}
+
+.stats-icon {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.stats-icon > div:last-child {
+    padding-right: 15px;
+}
+
+.stats-icon svg {
+    /* width: 15%; */
+    fill: blue;
+}
+
+.icon-color1 svg {
+    fill: #dc87e4;
+}
+.icon-color1 .value {
+    color: #dc87e4;
+}
+
+.icon-color2 svg {
+    fill: #67e5cf;
+}
+.icon-color2 .value {
+    color: #67e5cf;
+}
+
+.icon-color3 svg {
+    fill: #6ed678;
+}
+.icon-color3 .value {
+    color: #6ed678;
+}
+
+.icon-color4 svg {
+    fill: #dc6951;
+}
+.icon-color4 .value {
+    color: #dc6951;
+}
+
+.icon-color5 svg {
+    fill: #ffbc18;
+}
+.icon-color5 .value {
+    color: #ffbc18;
+}
+  
+.icon-color6 svg {
+    fill: #0c90db;
+}
+.icon-color6 .value {
+    color: #0c90db;
+}
+
+.icon-color7 svg {
+    fill: #27ba90;
+}
+.icon-color7 .value {
+    color: #27ba90;
+}
+
+.icon-color8 svg {
+    fill: #f78642;
+}
+.icon-color8 .value {
+    color: #f78642;
+}
+
+.icon-color9 svg {
+    fill: #40536b;
+}
+.icon-color9 .value {
+    color: #40536b;
+}

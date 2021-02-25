@@ -1,0 +1,13 @@
+{
+    "current": "0.1.0",
+    "history": {
+        "FrontendVersionHistoryList":[
+            {
+                "version": "0.1.0",
+                "description": "Place a test diagram",
+                "releaseDateTime": "1398/10/12T20:05:00",
+                "author": "EmIT"
+            }
+        ]
+    }
+}

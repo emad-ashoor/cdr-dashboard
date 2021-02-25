@@ -1,0 +1,110 @@
+.ei-sidebar {
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    top: 0px;
+    right: 0px;
+    z-index: 1050;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    background-color: white;
+    box-shadow: 5px 0 10px 10px rgb(215,217,230);
+}
+
+.ei-sidebar-section {
+    border-bottom: 1px solid #c7c7c7;
+    width: 100%;
+    padding: 15px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ei-sidebar-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    background-color: dodgerblue;
+}
+
+.ei-btn-list {
+    width: 80%;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+@media screen and (max-width:768px) {
+    .ei-sidebar {
+        width: 220px;
+        box-shadow: 0 0 0 100em rgba(0, 0, 0, 0);
+        transform:translate3d(220px , 0 , 0);
+		transition:all 0.3s ease-in-out;
+    }
+
+    .ei-sidebar .ei-hamburger {
+        width: 34px;
+        height: 34px;
+        border-radius: 3px;
+        /* border-radius: 50%; */
+        /* margin: 0px 10px 0px 5px; */
+
+        position: absolute;
+        right: 105%;
+        top: 8px;
+
+        background: deepskyblue;
+        box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.26);
+        text-align: center;
+        vertical-align: middle;
+        cursor: pointer;
+    }
+    
+    .ei-hamburger:before, .ei-hamburger:after{
+        content:'';
+        width:50%;
+        height:2px;
+        background:#fff;
+        border-radius:10px;
+        position:absolute;
+        top:45%;
+        left:50%;
+        transform:translate3d(-50%, -50%, 0);
+    }
+
+    .ei-hamburger:after{
+        top:55%;
+        transform:translate3d(-50%, -50%, 0);
+    }
+
+    .ei-sidebar .ei-hamburger:after .ei-container {
+        padding-right: 220px;
+    }
+
+    .ei-sidebar:focus {
+        transform: translate3d(0, 0, 0);
+        box-shadow: 0 0 0 100em rgba(0, 0, 0, 0.6);
+    }
+
+    .ei-sidebar:focus .ei-hamburger {
+        pointer-events: none;
+    }
+
+    .ei-sidebar .ei-hamburger:after .ei-sidebar {
+        width: 220px;
+        box-shadow: 0 0 0 100em rgba(0, 0, 0, 0);
+        transform: translate3d(220px, 0, 0);
+        transition: all 0.3s ease-in-out;
+    }
+
+    .ei-sidebar .ei-hamburger:after .ei-sidebar:focus {
+        transform: translate3d(0, 0, 0);
+        box-shadow: 0 0 0 100em rgba(0, 0, 0, 0.6);
+    }
+}

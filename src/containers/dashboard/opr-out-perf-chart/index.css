@@ -1,0 +1,31 @@
+/* .recharts-cartesian-axis-tick-value tspan {
+    direction: ltr !important;
+} */
+
+.ei-tooltip-panel {
+    background-color: rgba(0,0,0,0.6);
+    /* border: 1px solid #eee; */
+    border-radius: 4px;
+    /* width: 200px; */
+    /* height: 200px; */
+    padding: 10px;
+    text-align: 'center';
+    direction: rtl !important;
+}
+
+.ei-tooltip-panel p {
+    font-weight: bold;
+    color: white;
+    font-size: calc(6px + 1vw);
+}
+
+.ei-tooltip-panel ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.ei-tooltip-panel li {
+    list-style-type: none;
+    font-size: calc(3px + 1vw);
+    margin-bottom: calc(0.5px + 0.5vw);
+} 

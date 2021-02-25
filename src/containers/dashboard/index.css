@@ -1,0 +1,63 @@
+.top-title {
+    padding-right: 20px;
+    color:rgb(0, 0, 189);
+    font-size: calc(14px + 0.75vw) !important;
+    font-weight: bold;
+    margin-top: 15px;
+    font-size: 19px;
+}
+
+.refresh-combo {
+    font-size: calc(8px + 0.5vw) !important;
+    text-align: left !important;
+    padding-left: 25px;
+    margin-top: 15px;
+}
+
+@media screen and (max-width:400px) {
+    .refresh-combo {
+        display: none;
+    }
+}
+
+.search-title {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.JDatePicker {
+    box-shadow: 0px 3px 7px 0px #5e5e5e
+}
+
+.JC-years .left , .JC-years .right {
+    font-size: 12px;
+}
+
+/* fix recharts diagrams */
+.recharts-wrapper {
+    direction: ltr !important;
+}
+
+/* fix recharts diagrams */
+.recharts-wrapper * {
+    direction: ltr !important;
+}
+
+.ei-call-type-switch-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.react-switch {
+    vertical-align: middle;
+    margin-left: 4px;
+}
+
+.ei-switch-wrapper {
+    direction: ltr !important;
+    display: inline-block;
+}
+
+.ei-switch-wrapper * {
+    direction: ltr !important;
+}
